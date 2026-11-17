@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <title>Uma História, Mil Memórias</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio">HISTÓRIA <span>✦</span> MEMÓRIAS</a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+    <nav class="nav">
+      <a href="#trajetoria">Nossa trajetória</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#mensagens">Mensagens</a>
+      <a href="#agradecimentos">Agradecimentos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="eyebrow">UMA TURMA. TANTAS HISTÓRIAS.</p>
+        <h1>Uma História,<br><em>Mil Memórias</em></h1>
+        <p class="hero-subtitle">Nossa despedida</p>
+        <div class="gold-rule"></div>
+        <p class="hero-quote">
+          “Não é apenas o fim de uma turma, é o encerramento de uma história que jamais será esquecida.”
+        </p>
+        <a class="button" href="#trajetoria">
+          Reviver nossas memórias <span>↓</span>
+        </a>
+      </div>
+      <div class="hero-bottom">TURMA 2026 <span>•</span> PARA SEMPRE EM NÓS</div>
+    </section>
+
+    <section class="section story" id="trajetoria">
+      <div class="section-kicker">CAPÍTULO 01 <span>—</span> NOSSA TRAJETÓRIA</div>
+
+      <div class="story-grid">
+        <div>
+          <h2>Tudo começou<br><em>com um primeiro dia.</em></h2>
+        </div>
+
+        <div class="story-copy">
+          <p>
+            Talvez, quando tudo começou, ninguém imaginasse o quanto essas pessoas se tornariam importantes. Entre conversas, brincadeiras, trabalhos, provas, discussões e momentos inesquecíveis, construímos algo muito maior do que uma simples turma.
+          </p>
+          <p>Construímos uma história.</p>
+          <div class="signature">E ela vai com a gente. <span>✦</span></div>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <small>NO COMEÇO</small>
+          <p>Novos rostos, novas histórias</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <small>PELO CAMINHO</small>
+          <p>Risadas, desafios e amizade</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <small>AGORA</small>
+          <p>Uma despedida cheia de gratidão</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galeria">
+      <div class="section-kicker">CAPÍTULO 02 <span>—</span> GALERIA DE LEMBRANÇAS</div>
+
+      <div class="section-heading">
+        <div>
+          <h2>Instantes que<br><em>ficam para sempre.</em></h2>
+          <p class="muted">Cada foto guarda um pedacinho da nossa história.</p>
+        </div>
+
+        <label class="button button-small upload-button">
+          ＋ Adicionar fotos
+          <input id="photo-input" type="file" accept="image/*" multiple hidden>
+        </label>
+      </div>
+
+      <div class="gallery" id="gallery">
+        <button class="memory-card memory-one" data-caption="Os dias que viraram lembrança">
+          <span class="placeholder-icon">✦</span>
+          <span class="card-caption">Os dias que viraram lembrança</span>
+        </button>
+        <button class="memory-card memory-two" data-caption="A alegria de estar junto">
+          <span class="placeholder-icon">☼</span>
+          <span class="card-caption">A alegria de estar junto</span>
+        </button>
+        <button class="memory-card memory-three" data-caption="Nossa turma, nosso mundo">
+          <span class="placeholder-icon">✧</span>
+          <span class="card-caption">Nossa turma, nosso mundo</span>
+        </button>
+        <button class="memory-card memory-four" data-caption="Um momento só nosso">
+          <span class="placeholder-icon">♡</span>
+          <span class="card-caption">Um momento só nosso</span>
+        </button>
+        <button class="memory-card memory-five" data-caption="Até as aulas eram especiais">
+          <span class="placeholder-icon">✦</span>
+          <span class="card-caption">Até as aulas eram especiais</span>
+        </button>
+      </div>
+
+      <p class="gallery-hint">
+        Clique em uma imagem para ampliar. Adicione fotos da turma pelo botão acima.
+      </p>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-mark">“</div>
+      <p>Foram tantos momentos, tantas risadas, tantas histórias…<br>
+        <em>e cada uma delas valeu a pena.</em>
+      </p>
+      <span>— UMA TURMA, PARA SEMPRE</span>
+    </section>
+
+    <section class="section farewell" id="despedida">
+      <div class="section-kicker">CAPÍTULO 03 <span>—</span> COM CARINHO</div>
+
+      <div class="farewell-layout">
+        <h2>O fim de uma fase.<br><em>O começo de tantas outras.</em></h2>
+
+        <div class="farewell-copy">
+          <p>Chegou o momento de seguir caminhos diferentes. Parece que foi ontem que tudo começou, e agora estamos aqui, prestes a encerrar um dos capítulos mais importantes das nossas vidas.</p>
+          <p>Foram tantos momentos, tantas risadas, tantas brincadeiras, conversas, dificuldades e histórias que seria impossível resumir tudo em algumas palavras.</p>
+          <p>Talvez não tenhamos sido a turma perfeita. Existiram desentendimentos, dias difíceis e momentos em que tudo parecia complicado. Mas foi justamente isso que tornou nossa história única.</p>
+          <p>Cada pessoa deixou uma marca, cada amizade teve sua importância e cada momento contribuiu para construir as lembranças que levaremos conosco.</p>
+          <p>O tempo pode nos afastar, os caminhos podem mudar e talvez nem todos continuem próximos, mas sempre existirá uma parte de cada um de nós nessa história.</p>
+          <p>Não estamos apenas nos despedindo de uma sala de aula, estamos nos despedindo de uma fase da vida que nunca mais voltará.</p>
+          <p>Obrigado por cada momento. Que o futuro seja incrível para todos nós.</p>
+          <p class="bold-ending">Não é um adeus, é apenas o começo de novas histórias.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section messages-section" id="mensagens">
+      <div class="section-kicker">CAPÍTULO 04 <span>—</span> MURAL DE MENSAGENS</div>
+
+      <div class="section-heading">
+        <div>
+          <h2>Deixe um pedacinho<br><em>seu por aqui.</em></h2>
+          <p class="muted">Uma lembrança, um agradecimento ou um abraço em palavras.</p>
+        </div>
+      </div>
+
+      <form id="message-form" class="message-form">
+        <label>
+          Seu nome
+          <input id="student-name" maxlength="40" placeholder="Como podemos te chamar?" required>
+        </label>
+        <label>
+          Sua mensagem
+          <textarea id="student-message" maxlength="280" placeholder="Escreva sua lembrança ou despedida…" required></textarea>
+        </label>
+        <button class="button" type="submit">Guardar mensagem <span>✦</span></button>
+      </form>
+
+      <div class="message-wall" id="message-wall" aria-live="polite"></div>
+    </section>
+
+    <section class="section teachers" id="agradecimentos">
+      <div class="section-kicker">CAPÍTULO 05 <span>—</span> COM GRATIDÃO</div>
+      <h2>A quem caminhou<br><em>ao nosso lado.</em></h2>
+      <p class="muted teachers-intro">
+        Aos professores e a todos que fizeram parte dessa jornada: obrigado por cada ensinamento, cada cuidado e cada história que agora é nossa também.
+      </p>
+
+      <div class="teacher-notes">
+        <p><strong>Salomão,</strong> obrigado por tudo. Hoje trouxemos o seu chocolate para você não trocar a gente de lugar.</p>
+        <p><strong>Gerson,</strong> nosso amor por você é grande igual sua barriguinha.</p>
+        <p><strong>Denilson,</strong> nunca esqueceremos das suas cantigas.</p>
+        <p><strong>Adalto,</strong> nunca esqueceremos do “AH LADRÃO...”</p>
+        <p><strong>Airton,</strong> carregue a gente no seu coração como você carrega a sua caixinha para todo lugar.</p>
+        <p><strong>Moreira,</strong> nunca esqueceremos do seu cabelo sedoso.</p>
+        <p><strong>Diretor,</strong> obrigado por cada sermão.</p>
+        <p><strong>Rafaela,</strong> obrigado por acreditar na nossa turma.</p>
+        <p><strong>Erlane,</strong> não se preocupe, não iremos mais colocar filme de terror.</p>
+        <p><strong>Cristiane,</strong> carregaremos você no nosso coração.</p>
+        <p><strong>Beatriz,</strong> que a nossa amizade se estenda como a linha do Equador.</p>
+        <p><strong>Andreia,</strong> e quando percebemos, foi a última trolagem.</p>
+        <p><strong>Márcia,</strong> nunca vamos esquecer do CACO.</p>
+        <p><strong>Rosana,</strong> nós vimos você se tornar uma grande e respeitada coordenadora, e hoje você nos vê crescer e nos formar adultos.</p>
+      </div>
+    </section>
+
+    <section class="section memories-count">
+      <div class="section-kicker">O QUE FICA</div>
+
+      <div class="count-grid">
+        <div><strong>∞</strong><p>Risadas compartilhadas</p></div>
+        <div><strong>✦</strong><p>Momentos inesquecíveis</p></div>
+        <div><strong>♡</strong><p>Amizades para a vida</p></div>
+        <div><strong>∞</strong><p>Histórias para contar</p></div>
+      </div>
+
+      <h3>Os the best ones are here.</h3>
+      <div class="graduates">
+        ANA CARLA CHAVES <span>✦</span> BRUNO SOARES <span>✦</span>
+        CARLOS ANDREY <span>✦</span> EMYLY KAUANY <span>✦</span>
+        EZEQUIEL MONTEIRO <span>✦</span> FRANCISCO ERMERSON <span>✦</span>
+        FRANSISCO JARDISON <span>✦</span> JONAS DE SOUSA <span>✦</span>
+        JOSÉ EDSON <span>✦</span> JÚLIA CRISTINA <span>✦</span>
+        KARINE MIRIAN <span>✦</span> MATEUS KAUAN <span>✦</span>
+        MICAEL FERREIRA <span>✦</span> PEDRO EDUARDO <span>✦</span>
+        RODRIGO PINHO <span>✦</span> WILLIAN DAVID <span>✦</span>
+        YAN RICHARD
+      </div>
+    </section>
+
+    <section class="finale" id="final">
+      <div class="final-stars">✦　 ·　 ✧　 ·　 ✦</div>
+      <p class="eyebrow">ATÉ BREVE</p>
+      <h2>Um dia fomos apenas colegas de sala.<br>
+        <em>Hoje somos parte da história uns dos outros.</em>
+      </h2>
+      <div class="gold-rule"></div>
+      <p>Que a vida nos leve para caminhos diferentes,<br>
+        mas que as lembranças sempre nos tragam de volta<br>
+        aos mesmos lugares.
+      </p>
+      <a href="#inicio" class="back-top">VOLTAR AO COMEÇO ↑</a>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada">
+    <button class="lightbox-close" aria-label="Fechar">×</button>
+    <img src="" alt="">
+    <p></p>
+  </div>
+
+  <footer>FEITO COM SAUDADE, GRATIDÃO E MUITO CARINHO <span>✦</span> TURMA 2026</footer>
+</body>
+</html>
